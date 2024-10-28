@@ -1,0 +1,173 @@
+{
+    "energy": -2.7451979000000004,
+    "negative": {
+        "03-synCafB:CFF:synCafB": {
+            "energy": 1.861519,
+            "pdbfile": "/Users/pablo/cur/caf/01-inputStructs/03-synCafB:CFF:synCafB/structure.pdb",
+            "residues": {
+                "('B', 45)": {
+                    "Dih": [
+                        -84.4959,
+                        67.1263,
+                        174.32,
+                        175.4
+                    ],
+                    "aa": "ARG"
+                },
+                "('B', 91)": {
+                    "Dih": [
+                        -67.7751,
+                        179.073,
+                        -179.9,
+                        176.868
+                    ],
+                    "aa": "ARG"
+                },
+                "('H', 45)": {
+                    "Dih": [
+                        -84.4895,
+                        67.5806,
+                        174.356,
+                        175.4
+                    ],
+                    "aa": "ARG"
+                },
+                "('H', 91)": {
+                    "Dih": [
+                        -68.6316,
+                        178.768,
+                        -179.917,
+                        175.374
+                    ],
+                    "aa": "ARG"
+                }
+            }
+        },
+        "04-synCafH:CFF:synCafH": {
+            "energy": -0.8253352000000002,
+            "pdbfile": "/Users/pablo/cur/caf/01-inputStructs/04-synCafH:CFF:synCafH/structure.pdb",
+            "residues": {
+                "('B', 45)": {
+                    "Dih": [
+                        -64.0152,
+                        -179.125,
+                        -6.29896
+                    ],
+                    "aa": "GLU"
+                },
+                "('B', 91)": {
+                    "Dih": [
+                        -66.6177,
+                        179.147,
+                        -6.08284
+                    ],
+                    "aa": "GLU"
+                },
+                "('H', 45)": {
+                    "Dih": [
+                        -63.9928,
+                        -179.18,
+                        -6.28657
+                    ],
+                    "aa": "GLU"
+                },
+                "('H', 91)": {
+                    "Dih": [
+                        -63.4076,
+                        81.405,
+                        -26.0415
+                    ],
+                    "aa": "GLU"
+                }
+            }
+        },
+        "06-synCafB:CFF": {
+            "energy": 1.6265960000000002,
+            "pdbfile": "/Users/pablo/cur/caf/01-inputStructs/06-synCafB:CFF/structure.pdb",
+            "residues": {
+                "('B', 45)": {
+                    "Dih": [
+                        -84.4959,
+                        67.1263,
+                        174.32,
+                        175.4
+                    ],
+                    "aa": "ARG"
+                },
+                "('B', 91)": {
+                    "Dih": [
+                        -67.7751,
+                        179.073,
+                        -179.9,
+                        176.868
+                    ],
+                    "aa": "ARG"
+                }
+            }
+        },
+        "08-synCafH:CFF": {
+            "energy": -1.3968121,
+            "pdbfile": "/Users/pablo/cur/caf/01-inputStructs/08-synCafH:CFF/structure.pdb",
+            "residues": {
+                "('H', 45)": {
+                    "Dih": [
+                        -63.9928,
+                        -179.18,
+                        -6.28657
+                    ],
+                    "aa": "GLU"
+                },
+                "('H', 91)": {
+                    "Dih": [
+                        -63.4076,
+                        81.405,
+                        -26.0415
+                    ],
+                    "aa": "GLU"
+                }
+            }
+        }
+    },
+    "positive": {
+        "02-synCafB:CFF:synCafH": {
+            "energy": -1.4792302000000002,
+            "pdbfile": "/Users/pablo/cur/caf/01-inputStructs/02-synCafB:CFF:synCafH/structure.pdb",
+            "residues": {
+                "('B', 45)": {
+                    "Dih": [
+                        -60.1182,
+                        -65.6315,
+                        -61.0,
+                        -84.5
+                    ],
+                    "aa": "ARG"
+                },
+                "('B', 91)": {
+                    "Dih": [
+                        -67.7751,
+                        179.073,
+                        -179.9,
+                        176.868
+                    ],
+                    "aa": "ARG"
+                },
+                "('H', 45)": {
+                    "Dih": [
+                        -63.3291,
+                        -67.3089,
+                        -35.4054
+                    ],
+                    "aa": "GLU"
+                },
+                "('H', 91)": {
+                    "Dih": [
+                        -63.4076,
+                        81.405,
+                        -26.0415
+                    ],
+                    "aa": "GLU"
+                }
+            }
+        }
+    }
+}

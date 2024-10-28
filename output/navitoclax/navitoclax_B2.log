@@ -1,0 +1,74 @@
+'Adding positive state; merging matrices '
+'Computing BP for negative state: 04-synBcl_wtBH3'
+'Computing BP for negative state: 05-wtBcl_synBinder'
+'Entering loop'
+'Expanding node with fScore -36.019323130000004 and sequence '
+{}
+'Residues in sequence: '
+{}
+{('K', 192): ['ASP']}
+'fScore of new node: = -36.019323130000004'
+'fScore of only positive state: = -35.707452890000006'
+'Entering loop'
+'Expanding node with fScore -36.019323130000004 and sequence '
+{('K', 192): ['ASP']}
+'Residues in sequence: '
+{('K', 192): ['ASP']}
+{('K', 192): ['ASP'], ('K', 243): ['ASP']}
+'fScore of new node: = -36.019323130000004'
+'fScore of only positive state: = -35.707452890000006'
+'Entering loop'
+'Expanding node with fScore -36.019323130000004 and sequence '
+{('K', 192): ['ASP'], ('K', 243): ['ASP']}
+'Residues in sequence: '
+{('K', 192): ['ASP'], ('K', 243): ['ASP']}
+{('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ']}
+'fScore of new node: = -36.019323130000004'
+'fScore of only positive state: = -35.707452890000006'
+'Entering loop'
+'Expanding node with fScore -36.019323130000004 and sequence '
+{('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ']}
+'Residues in sequence: '
+{('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ']}
+{('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ'], ('K', 240): ['ARG']}
+'fScore of new node: = -36.019323130000004'
+'fScore of only positive state: = -35.707452890000006'
+'Entering loop'
+'Expanding node with fScore -36.019323130000004 and sequence '
+{('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ'], ('K', 240): ['ARG']}
+'Residues in sequence: '
+{('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ'], ('K', 240): ['ARG']}
+{('A', 57): ['ASP'], ('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ'], ('K', 240): ['ARG']}
+'fScore of new node: = -36.019323130000004'
+'fScore of only positive state: = -35.707452890000006'
+'Entering loop'
+'Expanding node with fScore -36.019323130000004 and sequence '
+{('A', 57): ['ASP'], ('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ'], ('K', 240): ['ARG']}
+'Residues in sequence: '
+{('A', 57): ['ASP'], ('K', 192): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ'], ('K', 240): ['ARG']}
+{('K', 196): ['ASP'], ('A', 57): ['ASP'], ('A', 301): ['1XJ'], ('K', 243): ['ASP'], ('K', 240): ['ARG'], ('K', 192): ['ASP']}
+'fScore of new node: = -36.019323130000004'
+'fScore of only positive state: = -35.707452890000006'
+'Entering loop'
+'Expanding node with fScore -36.019323130000004 and sequence '
+{('K', 196): ['ASP'], ('A', 57): ['ASP'], ('A', 301): ['1XJ'], ('K', 243): ['ASP'], ('K', 240): ['ARG'], ('K', 192): ['ASP']}
+'Residues in sequence: '
+{('K', 196): ['ASP'], ('A', 57): ['ASP'], ('A', 301): ['1XJ'], ('K', 243): ['ASP'], ('K', 240): ['ARG'], ('K', 192): ['ASP']}
+{('K', 192): ['ASP'], ('A', 54): ['ASN'], ('K', 196): ['ASP'], ('K', 240): ['ARG'], ('A', 57): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ']}
+'fScore of new node: = -36.019323130000004'
+'fScore of only positive state: = -35.707452890000006'
+'Entering loop'
+'Expanding node with fScore -36.019323130000004 and sequence '
+{('K', 192): ['ASP'], ('A', 54): ['ASN'], ('K', 196): ['ASP'], ('K', 240): ['ARG'], ('A', 57): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ']}
+'Entering loop'
+'Expanding node with fScore -32.04529083999999 and sequence '
+{('K', 192): ['ASP'], ('A', 54): ['ASN'], ('K', 196): ['ASP'], ('K', 240): ['ARG'], ('A', 57): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ']}
+'Found optimal sequence with energy: -32.04529083999999'
+'positive states:'
+'Energy of 09-synBcl_navitoclax: -15.899542000000002'
+'Energy of 08-synBcl_synBinder: -19.80791089'
+'negative states:'
+'Energy of 04-synBcl_wtBH3: -14.1507991'
+'Energy of 05-wtBcl_synBinder: 10.488637049999998'
+{('K', 192): ['ASP'], ('A', 54): ['ASN'], ('K', 196): ['ASP'], ('K', 240): ['ARG'], ('A', 57): ['ASP'], ('K', 243): ['ASP'], ('A', 301): ['1XJ']}
+'DeltaE of new sequence: -32.04529083999999'

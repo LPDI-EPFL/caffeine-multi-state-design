@@ -1,0 +1,130 @@
+'Adding positive state; merging matrices '
+'Reference energy for state: 01-wtCafB:CFF:wtCafH id: complex = -14.64'
+'Reference energy for state: 07-wtCafH:CFF id: ligand = -7.63'
+'Reference energy for state: 05-wtCafB:CFF id: protein = -6.69'
+'Reference deltaE: -0.320'
+'Entering loop'
+'Expanding node with fScore 17.32551443 and sequence '
+{}
+'Residues in sequence: '
+{}
+{('B', 41): ['GLN']}
+'fScore of new node: = 17.32551443'
+'fScore of only positive state: = -15.180623888916665'
+'Entering loop'
+'Expanding node with fScore 17.32551443 and sequence '
+{('B', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 41): ['GLN']}
+{('B', 41): ['GLN'], ('H', 41): ['GLN']}
+'fScore of new node: = 17.32551443'
+'fScore of only positive state: = -15.180623888916665'
+'Entering loop'
+'Expanding node with fScore 17.32551443 and sequence '
+{('B', 41): ['GLN'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 41): ['GLN'], ('H', 41): ['GLN']}
+{('H', 67): ['LYS'], ('B', 41): ['GLN'], ('H', 41): ['GLN']}
+'fScore of new node: = 17.32551443'
+'fScore of only positive state: = -15.180623888916665'
+'Entering loop'
+'Expanding node with fScore 17.32551443 and sequence '
+{('H', 67): ['LYS'], ('B', 41): ['GLN'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 67): ['LYS'], ('B', 41): ['GLN'], ('H', 41): ['GLN']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+'fScore of new node: = 17.32551443'
+'fScore of only positive state: = -15.180623888916665'
+'Entering loop'
+'Expanding node with fScore 17.32551443 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+'fScore of new node: = 17.32551443'
+'fScore of only positive state: = -15.180623888916665'
+'Entering loop'
+'Expanding node with fScore 17.32551443 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+'fScore of new node: = 17.32551443'
+'fScore of only positive state: = -15.180623888916665'
+'Entering loop'
+'Expanding node with fScore 17.32551443 and sequence '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLN']}
+{('H', 64): ['ASP'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 20.0145619'
+'fScore of only positive state: = -14.741521541'
+{('H', 64): ['GLU'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 19.45610424675'
+'fScore of only positive state: = -15.139096797250001'
+{('H', 64): ['LYS'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 20.0373708'
+'fScore of only positive state: = -14.204453699333333'
+{('H', 64): ['ASN'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 19.992449900000004'
+'fScore of only positive state: = -14.481800166'
+{('H', 64): ['GLN'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 19.645161117708337'
+'fScore of only positive state: = -14.019226068083332'
+{('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = -156.0075648'
+'fScore of only positive state: = -13.733578073708333'
+'Entering loop'
+'Expanding node with fScore -156.0075648 and sequence '
+{('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = -157.25573196599998'
+'fScore of only positive state: = -12.578045866'
+{('B', 47): ['GLU'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = -150.7281765985'
+'fScore of only positive state: = -13.3578367985'
+{('B', 47): ['LYS'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = -148.90886833318746'
+'fScore of only positive state: = -13.3313543331875'
+{('B', 47): ['ASN'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = -151.28902620266666'
+'fScore of only positive state: = -11.902014202666665'
+{('B', 47): ['GLN'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = -150.152106566'
+'fScore of only positive state: = -13.416934065999998'
+{('B', 47): ['ARG'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = -145.92593000000002'
+'fScore of only positive state: = -13.488781165999999'
+'Entering loop'
+'Expanding node with fScore -157.25573196599998 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore -151.28902620266666 and sequence '
+{('B', 47): ['ASN'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore -150.7281765985 and sequence '
+{('B', 47): ['GLU'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore -150.152106566 and sequence '
+{('B', 47): ['GLN'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore -148.90886833318746 and sequence '
+{('B', 47): ['LYS'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore -145.92593000000002 and sequence '
+{('B', 47): ['ARG'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 16.111366234000002 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Found optimal sequence with energy: 16.111366234000002'
+'positive states:'
+'Energy of 02-synCafB:CFF:synCafH: -12.578045866'
+'negative states:'
+'Energy of 06-synCafB:CFF: 0.1484290999999991'
+'Energy of 08-synCafH:CFF: -6.828945'
+'Energy of 03-synCafB:CFF:synCafB: -9.666952100000001'
+'Energy of 04-synCafH:CFF:synCafH: -12.341944099999997'
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['GLN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'DeltaE of new sequence: 16.111366234000002'

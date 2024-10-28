@@ -1,0 +1,446 @@
+'Adding positive state; merging matrices '
+'Computing BP for negative state: 10-synBcl_4qnq'
+'Entering loop'
+'Expanding node with fScore -268.9232498941923 and sequence '
+{}
+'Residues in sequence: '
+{}
+{('A', 302): ['1Y1']}
+'fScore of new node: = -268.9232498941923'
+'fScore of only positive state: = -52.512838463310544'
+'Entering loop'
+'Expanding node with fScore -268.9232498941923 and sequence '
+{('A', 302): ['1Y1']}
+'Residues in sequence: '
+{('A', 302): ['1Y1']}
+{('A', 302): ['1Y1'], ('A', 10): ['GLU']}
+'fScore of new node: = -268.9232498941923'
+'fScore of only positive state: = -52.512838463310544'
+'Entering loop'
+'Expanding node with fScore -268.9232498941923 and sequence '
+{('A', 302): ['1Y1'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 10): ['GLU']}
+{('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -29.2860960177365'
+'fScore of only positive state: = -52.51283279815431'
+{('A', 302): ['1Y1'], ('A', 11): ['ASN'], ('A', 10): ['GLU']}
+'fScore of new node: = -8.146850275576874'
+'fScore of only positive state: = -12.326173480503636'
+{('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -30.882096675544226'
+'fScore of only positive state: = -51.66563476463449'
+{('A', 302): ['1Y1'], ('A', 11): ['THR'], ('A', 10): ['GLU']}
+'fScore of new node: = -268.87805410847795'
+'fScore of only positive state: = -45.29964968533696'
+'Entering loop'
+'Expanding node with fScore -268.87805410847795 and sequence '
+{('A', 302): ['1Y1'], ('A', 11): ['THR'], ('A', 10): ['GLU']}
+"Discarding node {('A', 302): ['1Y1'], ('A', 11): ['THR'], ('A', 10): ['GLU']}: energy bound: -17.112545419210758 for  '08-synBcl_synBinder' greater than wildtype + threshold: -18.466731538639998"
+'Entering loop'
+'Expanding node with fScore -30.882096675544226 and sequence '
+{('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['ASP'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -22.61456176596624'
+'fScore of only positive state: = -47.02488925245061'
+{('A', 113): ['GLU'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -22.12547059716636'
+'fScore of only positive state: = -46.55625462963801'
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -23.81829756947902'
+'fScore of only positive state: = -50.81755207512886'
+{('A', 113): ['ASN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -23.370077624445855'
+'fScore of only positive state: = -48.461555106209545'
+{('A', 113): ['GLN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -23.032112210943094'
+'fScore of only positive state: = -47.9522561514041'
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -24.35106536012277'
+'fScore of only positive state: = -51.66563476463449'
+'Entering loop'
+'Expanding node with fScore -29.2860960177365 and sequence '
+{('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+{('A', 113): ['ASP'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -21.335829311453125'
+'fScore of only positive state: = -47.8123407501543'
+{('A', 113): ['GLU'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -20.71808915558744'
+'fScore of only positive state: = -47.16394078255407'
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -22.761711343028125'
+'fScore of only positive state: = -51.6489443584143'
+{('A', 113): ['ASN'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -22.229595714561295'
+'fScore of only positive state: = -49.3055138787486'
+{('A', 113): ['GLN'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -21.833440486373682'
+'fScore of only positive state: = -48.65741417502137'
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -23.329942610390624'
+'fScore of only positive state: = -52.51283279815431'
+'Entering loop'
+'Expanding node with fScore -24.35106536012277 and sequence '
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'fScore of new node: = -24.35106536012277'
+'fScore of only positive state: = -51.66563476463449'
+'Entering loop'
+'Expanding node with fScore -24.35106536012277 and sequence '
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -24.35106536012277'
+'fScore of only positive state: = -51.66563476463449'
+'Entering loop'
+'Expanding node with fScore -24.35106536012277 and sequence '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -23.616665197449777'
+'fScore of only positive state: = -50.93228136341658'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -23.21404207370629'
+'fScore of only positive state: = -50.36818363373558'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.02593502340681'
+'fScore of only positive state: = -49.50543969115095'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -20.865556171245352'
+'fScore of only positive state: = -48.162612332680894'
+'Entering loop'
+'Expanding node with fScore -23.81829756947902 and sequence '
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'fScore of new node: = -23.81829756947902'
+'fScore of only positive state: = -50.81755207512886'
+'Entering loop'
+'Expanding node with fScore -23.81829756947902 and sequence '
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -23.81829756947902'
+'fScore of only positive state: = -50.81755207512886'
+'Entering loop'
+'Expanding node with fScore -23.81829756947902 and sequence '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -23.08923562086853'
+'fScore of only positive state: = -50.084198673910954'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.67108314712504'
+'fScore of only positive state: = -49.520100944229966'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -21.501353496825562'
+'fScore of only positive state: = -48.65735700164533'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -20.3235550946641'
+'fScore of only positive state: = -47.31452964317527'
+'Entering loop'
+'Expanding node with fScore -23.616665197449777 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['ASN']}
+'fScore of new node: = -21.76909584282401'
+'fScore of only positive state: = -48.07611592282401'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'fScore of new node: = -23.2250505008524'
+'fScore of only positive state: = -49.6736554608524'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['THR']}
+'fScore of new node: = -22.865810758963452'
+'fScore of only positive state: = -50.18586530896344'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'fScore of new node: = -22.01018251294364'
+'fScore of only positive state: = -50.190126692943636'
+'Entering loop'
+'Expanding node with fScore -23.370077624445855 and sequence '
+{('A', 113): ['ASN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 113): ['ASN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['ASN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'fScore of new node: = -23.370077624445855'
+'fScore of only positive state: = -48.461555106209545'
+'Entering loop'
+'Expanding node with fScore -23.370077624445855 and sequence '
+{('A', 113): ['ASN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['ASN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -23.370077624445855'
+'fScore of only positive state: = -48.461555106209545'
+'Entering loop'
+'Expanding node with fScore -23.370077624445855 and sequence '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.63403093399161'
+'fScore of only positive state: = -47.72820170499163'
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.23619770924812'
+'fScore of only positive state: = -47.164103975310645'
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -21.043300759948643'
+'fScore of only positive state: = -46.301360032726016'
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -19.88962367778719'
+'fScore of only positive state: = -44.95853267425595'
+'Entering loop'
+'Expanding node with fScore -23.329942610390624 and sequence '
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'fScore of new node: = -23.329942610390624'
+'fScore of only positive state: = -52.51283279815431'
+'Entering loop'
+'Expanding node with fScore -23.329942610390624 and sequence '
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['TYR'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -23.329942610390624'
+'fScore of only positive state: = -52.51283279815431'
+'Entering loop'
+'Expanding node with fScore -23.329942610390624 and sequence '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.684489168281253'
+'fScore of only positive state: = -51.78221904'
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.169540630963542'
+'fScore of only positive state: = -51.21405716658854'
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['ASN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -21.122616333593754'
+'fScore of only positive state: = -50.35150322'
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['GLN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -19.832816115221355'
+'fScore of only positive state: = -49.0083018460026'
+'Entering loop'
+'Expanding node with fScore -23.2250505008524 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'Entering loop'
+'Expanding node with fScore -23.21404207370629 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['ASN']}
+'fScore of new node: = -21.365211523794265'
+'fScore of only positive state: = -47.510635353794264'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'fScore of new node: = -22.822825410780787'
+'fScore of only positive state: = -49.10983412078079'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['THR']}
+'fScore of new node: = -22.463630528891837'
+'fScore of only positive state: = -49.62205703889184'
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'fScore of new node: = -21.60670858531343'
+'fScore of only positive state: = -49.625020495313436'
+'Entering loop'
+'Expanding node with fScore -23.08923562086853 and sequence '
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['ASN']}
+'fScore of new node: = -21.21935028313407'
+'fScore of only positive state: = -47.21245148313407'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'fScore of new node: = -22.697595427571155'
+'fScore of only positive state: = -48.82589718757115'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['THR']}
+'fScore of new node: = -22.3383918276947'
+'fScore of only positive state: = -49.3381431776947'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'fScore of new node: = -21.462158723706136'
+'fScore of only positive state: = -49.321803717266135'
+'Entering loop'
+'Expanding node with fScore -23.032112210943094 and sequence '
+{('A', 113): ['GLN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 113): ['GLN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['GLN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'fScore of new node: = -23.032112210943094'
+'fScore of only positive state: = -47.9522561514041'
+'Entering loop'
+'Expanding node with fScore -23.032112210943094 and sequence '
+{('A', 113): ['GLN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['GLN'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['GLN'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -23.032112210943094'
+'fScore of only positive state: = -47.9522561514041'
+'Entering loop'
+'Expanding node with fScore -23.032112210943094 and sequence '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['GLN'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['GLN'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['GLN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.233388709779476'
+'fScore of only positive state: = -47.21871063293155'
+{('A', 113): ['GLN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.01731674243286'
+'fScore of only positive state: = -46.65489521260858'
+{('A', 113): ['GLN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -20.62484371070794'
+'fScore of only positive state: = -45.79196684436862'
+{('A', 113): ['GLN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -19.63503462344002'
+'fScore of only positive state: = -44.449234041666394'
+'Entering loop'
+'Expanding node with fScore -22.865810758963452 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['THR']}
+'Entering loop'
+'Expanding node with fScore -22.822825410780787 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'Entering loop'
+'Expanding node with fScore -22.761711343028125 and sequence '
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.761711343028125'
+'fScore of only positive state: = -51.6489443584143'
+'Entering loop'
+'Expanding node with fScore -22.761711343028125 and sequence '
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['PHE'], ('A', 302): ['1Y1'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['PHE'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'fScore of new node: = -22.761711343028125'
+'fScore of only positive state: = -51.6489443584143'
+'Entering loop'
+'Expanding node with fScore -22.761711343028125 and sequence '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['PHE'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['PHE'], ('A', 11): ['ALA'], ('A', 10): ['GLU']}
+{('A', 113): ['PHE'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.12159611498125'
+'fScore of only positive state: = -50.918330600260006'
+{('A', 113): ['PHE'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -21.591118227663543'
+'fScore of only positive state: = -50.350168726848544'
+{('A', 113): ['PHE'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['ASN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -20.562571330293753'
+'fScore of only positive state: = -49.487614780259996'
+{('A', 113): ['PHE'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['GLN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -19.25535156192136'
+'fScore of only positive state: = -48.144413406262615'
+'Entering loop'
+'Expanding node with fScore -22.697595427571155 and sequence '
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'Entering loop'
+'Expanding node with fScore -22.684489168281253 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['ASN']}
+'fScore of new node: = -22.129891277306086'
+'fScore of only positive state: = -49.50993055730609'
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'fScore of new node: = -22.01284251216797'
+'fScore of only positive state: = -49.37128547216797'
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['THR']}
+'fScore of new node: = -22.19454691450614'
+'fScore of only positive state: = -50.487588414506135'
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'fScore of new node: = -22.580549660000003'
+'fScore of only positive state: = -51.78221904'
+'Entering loop'
+'Expanding node with fScore -22.67108314712504 and sequence '
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['ASN']}
+'fScore of new node: = -20.79993661410433'
+'fScore of only positive state: = -46.646970914104315'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'fScore of new node: = -22.279840987499533'
+'fScore of only positive state: = -48.26207584749954'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['THR']}
+'fScore of new node: = -21.920682247623088'
+'fScore of only positive state: = -48.774334907623086'
+{('A', 113): ['PHE'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'fScore of new node: = -21.043155446075932'
+'fScore of only positive state: = -48.75669751963593'
+'Entering loop'
+'Expanding node with fScore -22.63403093399161 and sequence '
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['ASN']}
+'fScore of new node: = -20.750974755297854'
+'fScore of only positive state: = -44.79897735529785'
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['SER']}
+'fScore of new node: = -22.24110281247236'
+'fScore of only positive state: = -46.46896887247237'
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['THR']}
+'fScore of new node: = -21.88130323982544'
+'fScore of only positive state: = -46.98061888982544'
+{('A', 113): ['ASN'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'fScore of new node: = -20.988634536588137'
+'fScore of only positive state: = -46.947839816588136'
+'Entering loop'
+'Expanding node with fScore -22.61456176596624 and sequence '
+{('A', 113): ['ASP'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 113): ['ASP'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['ASP'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'fScore of new node: = -22.61456176596624'
+'fScore of only positive state: = -47.02488925245061'
+'Entering loop'
+'Expanding node with fScore -22.61456176596624 and sequence '
+{('A', 113): ['ASP'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+'Residues in sequence: '
+{('A', 113): ['ASP'], ('A', 302): ['1Y1'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 18): ['ARG']}
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['ASP'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'fScore of new node: = -22.61456176596624'
+'fScore of only positive state: = -47.02488925245061'
+'Entering loop'
+'Expanding node with fScore -22.61456176596624 and sequence '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['ASP'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+'Residues in sequence: '
+{('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 113): ['ASP'], ('A', 11): ['SER'], ('A', 10): ['GLU']}
+{('A', 113): ['ASP'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASP'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -21.87827978382478'
+'fScore of only positive state: = -46.29117028127595'
+{('A', 113): ['ASP'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLU'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -21.480344440487258'
+'fScore of only positive state: = -45.72748458200093'
+{('A', 113): ['ASP'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['ASN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -20.287736884816688'
+'fScore of only positive state: = -44.864515884045204'
+{('A', 113): ['ASP'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 14): ['GLN'], ('A', 302): ['1Y1'], ('A', 109): ['PHE'], ('A', 18): ['ARG']}
+'fScore of new node: = -19.132872627577107'
+'fScore of only positive state: = -43.521866820497024'
+'Entering loop'
+'Expanding node with fScore -22.580549660000003 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'Entering loop'
+'Expanding node with fScore -22.463630528891837 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['SER'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['GLU'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['THR']}
+'Entering loop'
+'Expanding node with fScore -22.401162910000004 and sequence '
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'Found optimal sequence with energy: -22.401162910000004'
+'positive states:'
+'Energy of 09-synBcl_venetoclax: -51.60283229'
+'negative states:'
+'Energy of 10-synBcl_4qnq: -29.20166938'
+{('A', 113): ['TYR'], ('A', 11): ['ALA'], ('A', 10): ['GLU'], ('A', 302): ['1Y1'], ('A', 14): ['ASP'], ('A', 109): ['PHE'], ('A', 18): ['ARG'], ('A', 59): ['VAL']}
+'DeltaE of new sequence: -22.401162910000004'

@@ -1,0 +1,115 @@
+{
+    "energy": 14.268640300000001,
+    "negative": {
+        "03-synCafB:CFF:synCafB": {
+            "energy": -14.268640300000001,
+            "pdbfile": "/Users/pablo/cur/caf/01-inputStructs/03-synCafB:CFF:synCafB/structure.pdb",
+            "residues": {
+                "('B', 108)": {
+                    "Dih": [
+                        -59.8924,
+                        -84.2947,
+                        -1.24764e-13
+                    ],
+                    "aa": "TYR"
+                },
+                "('B', 49)": {
+                    "Dih": [
+                        -186.506,
+                        77.0844
+                    ],
+                    "aa": "PHE"
+                },
+                "('H', 108)": {
+                    "Dih": [
+                        -60.5424,
+                        102.126,
+                        2.69761e-13
+                    ],
+                    "aa": "TYR"
+                },
+                "('H', 49)": {
+                    "Dih": [
+                        163.046,
+                        -99.8214
+                    ],
+                    "aa": "PHE"
+                }
+            }
+        },
+        "04-synCafH:CFF:synCafH": {
+            "energy": -14.268640300000001,
+            "pdbfile": "/Users/pablo/cur/caf/01-inputStructs/04-synCafH:CFF:synCafH/structure.pdb",
+            "residues": {
+                "('B', 108)": {
+                    "Dih": [
+                        -59.8924,
+                        -84.2947,
+                        -1.24764e-13
+                    ],
+                    "aa": "TYR"
+                },
+                "('B', 49)": {
+                    "Dih": [
+                        -186.506,
+                        77.0844
+                    ],
+                    "aa": "PHE"
+                },
+                "('H', 108)": {
+                    "Dih": [
+                        -60.5424,
+                        102.126,
+                        2.69761e-13
+                    ],
+                    "aa": "TYR"
+                },
+                "('H', 49)": {
+                    "Dih": [
+                        163.046,
+                        -99.8214
+                    ],
+                    "aa": "PHE"
+                }
+            }
+        }
+    },
+    "positive": {
+        "02-synCafB:CFF:synCafH": {
+            "energy": -14.268640300000001,
+            "pdbfile": "/Users/pablo/cur/caf/01-inputStructs/02-synCafB:CFF:synCafH/structure.pdb",
+            "residues": {
+                "('B', 108)": {
+                    "Dih": [
+                        -59.8924,
+                        -84.2947,
+                        -1.24764e-13
+                    ],
+                    "aa": "TYR"
+                },
+                "('B', 49)": {
+                    "Dih": [
+                        -186.506,
+                        77.0844
+                    ],
+                    "aa": "PHE"
+                },
+                "('H', 108)": {
+                    "Dih": [
+                        -60.5424,
+                        102.126,
+                        2.69761e-13
+                    ],
+                    "aa": "TYR"
+                },
+                "('H', 49)": {
+                    "Dih": [
+                        163.046,
+                        -99.8214
+                    ],
+                    "aa": "PHE"
+                }
+            }
+        }
+    }
+}

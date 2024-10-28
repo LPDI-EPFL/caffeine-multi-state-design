@@ -1,0 +1,125 @@
+'Adding positive state; merging matrices '
+'Reference energy for state: 01-wtCafB:CFF:wtCafH id: complex = -1.30'
+'Reference energy for state: 07-wtCafH:CFF id: ligand = 0.00'
+'Reference energy for state: 05-wtCafB:CFF id: protein = 0.00'
+'Reference deltaE: -1.305'
+'Entering loop'
+'Expanding node with fScore -4063.353725 and sequence '
+{}
+'Residues in sequence: '
+{}
+{('B', 45): ['ASP']}
+'fScore of new node: = -0.33698499999999987'
+'fScore of only positive state: = -1.6523373200000002'
+{('B', 45): ['GLU']}
+'fScore of new node: = 0.4981148000000001'
+'fScore of only positive state: = -1.8879788000000002'
+{('B', 45): ['LYS']}
+'fScore of new node: = -2.2479289000000002'
+'fScore of only positive state: = -1.9791471999999999'
+{('B', 45): ['ASN']}
+'fScore of new node: = -0.9143795'
+'fScore of only positive state: = -1.4937945500000003'
+{('B', 45): ['GLN']}
+'fScore of new node: = 1.543415'
+'fScore of only positive state: = -2.3533075'
+{('B', 45): ['ARG']}
+'fScore of new node: = -2031.5742209999999'
+'fScore of only positive state: = -2.41859'
+{('B', 45): ['SER']}
+'fScore of new node: = -0.26864599999999994'
+'fScore of only positive state: = -1.8571630000000001'
+'Entering loop'
+'Expanding node with fScore -2031.5742209999999 and sequence '
+{('B', 45): ['ARG']}
+'Residues in sequence: '
+{('B', 45): ['ARG']}
+{('H', 45): ['ASP'], ('B', 45): ['ARG']}
+'fScore of new node: = 0.2945579999999999'
+'fScore of only positive state: = -0.4617739999999999'
+{('H', 45): ['GLU'], ('B', 45): ['ARG']}
+'fScore of new node: = -0.7925649999999995'
+'fScore of only positive state: = -2.41859'
+{('H', 45): ['LYS'], ('B', 45): ['ARG']}
+'fScore of new node: = 0.7633801'
+'fScore of only positive state: = -0.7118049'
+{('H', 45): ['ASN'], ('B', 45): ['ARG']}
+'fScore of new node: = 0.03650600000000004'
+'fScore of only positive state: = -0.203727'
+{('H', 45): ['GLN'], ('B', 45): ['ARG']}
+'fScore of new node: = 0.42221500000000023'
+'fScore of only positive state: = -2.16864'
+{('H', 45): ['ARG'], ('B', 45): ['ARG']}
+'fScore of new node: = 0.20528300000000002'
+'fScore of only positive state: = -0.16084299999999996'
+{('H', 45): ['SER'], ('B', 45): ['ARG']}
+'fScore of new node: = 1.0763409999999998'
+'fScore of only positive state: = -1.243564'
+'Entering loop'
+'Expanding node with fScore -2.2479289000000002 and sequence '
+{('B', 45): ['LYS']}
+'Residues in sequence: '
+{('B', 45): ['LYS']}
+{('H', 45): ['ASP'], ('B', 45): ['LYS']}
+'fScore of new node: = 0.8926098999999998'
+'fScore of only positive state: = -1.0659678'
+{('H', 45): ['GLU'], ('B', 45): ['LYS']}
+'fScore of new node: = 1.2565868000000002'
+'fScore of only positive state: = -1.5716839'
+{('H', 45): ['LYS'], ('B', 45): ['LYS']}
+'fScore of new node: = 2.6570138000000005'
+'fScore of only positive state: = -1.304814'
+{('H', 45): ['ASN'], ('B', 45): ['LYS']}
+'fScore of new node: = 0.6408391000000002'
+'fScore of only positive state: = -0.8016395999999999'
+{('H', 45): ['GLN'], ('B', 45): ['LYS']}
+'fScore of new node: = 1.8139535000000002'
+'fScore of only positive state: = -1.9791471999999999'
+{('H', 45): ['ARG'], ('B', 45): ['LYS']}
+'fScore of new node: = 0.6987292'
+'fScore of only positive state: = -0.8138785'
+{('H', 45): ['SER'], ('B', 45): ['LYS']}
+'fScore of new node: = 1.6988174279999997'
+'fScore of only positive state: = -1.823333272'
+'Entering loop'
+'Expanding node with fScore -0.9143795 and sequence '
+{('B', 45): ['ASN']}
+'Residues in sequence: '
+{('B', 45): ['ASN']}
+{('H', 45): ['ASP'], ('B', 45): ['ASN']}
+'fScore of new node: = 0.46075299999999997'
+'fScore of only positive state: = -0.5782559999999999'
+{('H', 45): ['GLU'], ('B', 45): ['ASN']}
+'fScore of new node: = 0.8955960000000001'
+'fScore of only positive state: = -1.013106'
+{('H', 45): ['LYS'], ('B', 45): ['ASN']}
+'fScore of new node: = 0.7656418'
+'fScore of only positive state: = -0.9922202'
+{('H', 45): ['ASN'], ('B', 45): ['ASN']}
+'fScore of new node: = 0.52291'
+'fScore of only positive state: = -0.32020899999999997'
+{('H', 45): ['GLN'], ('B', 45): ['ASN']}
+'fScore of new node: = 1.3797374499999997'
+'fScore of only positive state: = -1.4937945500000003'
+{('H', 45): ['ARG'], ('B', 45): ['ASN']}
+'fScore of new node: = 0.21063500000000002'
+'fScore of only positive state: = -0.38240399999999997'
+{('H', 45): ['SER'], ('B', 45): ['ASN']}
+'fScore of new node: = 1.2425359999999999'
+'fScore of only positive state: = -1.3600459999999999'
+'Entering loop'
+'Expanding node with fScore -0.7925649999999995 and sequence '
+{('H', 45): ['GLU'], ('B', 45): ['ARG']}
+'Entering loop'
+'Expanding node with fScore -0.8891710000000002 and sequence '
+{('H', 45): ['GLU'], ('B', 45): ['ARG']}
+'Found optimal sequence with energy: -0.8891710000000002'
+'positive states:'
+'Energy of 02-synCafB:CFF:synCafH: -2.41859'
+'negative states:'
+'Energy of 06-synCafB:CFF: 0.0'
+'Energy of 08-synCafH:CFF: 0.0'
+'Energy of 03-synCafB:CFF:synCafB: -0.16084299999999996'
+'Energy of 04-synCafH:CFF:synCafH: -1.368576'
+{('H', 45): ['GLU'], ('B', 45): ['ARG']}
+'DeltaE of new sequence: -0.8891710000000002'

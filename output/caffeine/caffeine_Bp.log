@@ -1,0 +1,797 @@
+'Adding positive state; merging matrices '
+'Reference energy for state: 01-wtCafB:CFF:wtCafH id: complex = -14.64'
+'Reference energy for state: 07-wtCafH:CFF id: ligand = -7.63'
+'Reference deltaE: -7.010'
+'Entering loop'
+'Expanding node with fScore 11.5523965 and sequence '
+{}
+'Residues in sequence: '
+{}
+{('B', 41): ['ASP']}
+'fScore of new node: = 6.4307173340000015'
+'fScore of only positive state: = -12.835280265999998'
+{('B', 41): ['GLU']}
+'fScore of new node: = 7.295978733999998'
+'fScore of only positive state: = -15.245980278239582'
+{('B', 41): ['LYS']}
+'fScore of new node: = 9.496395400666666'
+'fScore of only positive state: = -14.897437133260416'
+{('B', 41): ['ASN']}
+'fScore of new node: = 7.785154134000001'
+'fScore of only positive state: = -13.253867233187501'
+{('B', 41): ['GLN']}
+'fScore of new node: = 17.32551443'
+'fScore of only positive state: = -15.180623888916665'
+{('B', 41): ['ARG']}
+'fScore of new node: = 9.048865300666668'
+'fScore of only positive state: = -14.278440805583333'
+'Entering loop'
+'Expanding node with fScore 6.4307173340000015 and sequence '
+{('B', 41): ['ASP']}
+'Residues in sequence: '
+{('B', 41): ['ASP']}
+{('B', 41): ['ASP'], ('H', 41): ['GLN']}
+'fScore of new node: = 6.4307173340000015'
+'fScore of only positive state: = -12.835280265999998'
+'Entering loop'
+'Expanding node with fScore 6.4307173340000015 and sequence '
+{('B', 41): ['ASP'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 41): ['ASP'], ('H', 41): ['GLN']}
+{('H', 67): ['LYS'], ('B', 41): ['ASP'], ('H', 41): ['GLN']}
+'fScore of new node: = 6.4307173340000015'
+'fScore of only positive state: = -12.835280265999998'
+'Entering loop'
+'Expanding node with fScore 6.4307173340000015 and sequence '
+{('H', 67): ['LYS'], ('B', 41): ['ASP'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 67): ['LYS'], ('B', 41): ['ASP'], ('H', 41): ['GLN']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+'fScore of new node: = 6.4307173340000015'
+'fScore of only positive state: = -12.835280265999998'
+'Entering loop'
+'Expanding node with fScore 6.4307173340000015 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+'fScore of new node: = 6.4307173340000015'
+'fScore of only positive state: = -12.835280265999998'
+'Entering loop'
+'Expanding node with fScore 6.4307173340000015 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+'fScore of new node: = 6.4307173340000015'
+'fScore of only positive state: = -12.835280265999998'
+'Entering loop'
+'Expanding node with fScore 6.4307173340000015 and sequence '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+'Residues in sequence: '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASP']}
+{('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.285456734'
+'fScore of only positive state: = -12.354471166'
+{('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 8.727273209'
+'fScore of only positive state: = -12.835280266'
+{('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.28564381525'
+'fScore of only positive state: = -11.838532699333333'
+{('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.263344733999999'
+'fScore of only positive state: = -12.072082166000001'
+{('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 8.731747723583332'
+'fScore of only positive state: = -11.694016270166667'
+{('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 6.627492334000001'
+'fScore of only positive state: = -11.5475542535'
+'Entering loop'
+'Expanding node with fScore 6.627492334000001 and sequence '
+{('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 6.001080334000001'
+'fScore of only positive state: = -10.370595565999999'
+{('B', 47): ['GLU'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 12.447135113166667'
+'fScore of only positive state: = -11.362571086833334'
+{('B', 47): ['LYS'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.0699946465'
+'fScore of only positive state: = -11.267615353499998'
+{('B', 47): ['ASN'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 12.145345488166665'
+'fScore of only positive state: = -9.853241111833334'
+{('B', 47): ['GLN'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.018733371499998'
+'fScore of only positive state: = -11.2291961285'
+{('B', 47): ['ARG'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.1246246465'
+'fScore of only positive state: = -11.371830353500002'
+'Entering loop'
+'Expanding node with fScore 6.001080334000001 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 7.295978733999998 and sequence '
+{('B', 41): ['GLU']}
+'Residues in sequence: '
+{('B', 41): ['GLU']}
+{('B', 41): ['GLU'], ('H', 41): ['GLN']}
+'fScore of new node: = 7.295978733999998'
+'fScore of only positive state: = -15.245980278239582'
+'Entering loop'
+'Expanding node with fScore 7.295978733999998 and sequence '
+{('B', 41): ['GLU'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 41): ['GLU'], ('H', 41): ['GLN']}
+{('H', 67): ['LYS'], ('B', 41): ['GLU'], ('H', 41): ['GLN']}
+'fScore of new node: = 7.295978733999998'
+'fScore of only positive state: = -15.245980278239582'
+'Entering loop'
+'Expanding node with fScore 7.295978733999998 and sequence '
+{('H', 67): ['LYS'], ('B', 41): ['GLU'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 67): ['LYS'], ('B', 41): ['GLU'], ('H', 41): ['GLN']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+'fScore of new node: = 7.295978733999998'
+'fScore of only positive state: = -15.245980278239582'
+'Entering loop'
+'Expanding node with fScore 7.295978733999998 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+'fScore of new node: = 7.295978733999998'
+'fScore of only positive state: = -15.245980278239582'
+'Entering loop'
+'Expanding node with fScore 7.295978733999998 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+'fScore of new node: = 7.295978733999998'
+'fScore of only positive state: = -15.245980278239582'
+'Entering loop'
+'Expanding node with fScore 7.295978733999998 and sequence '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+'Residues in sequence: '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['GLU']}
+{('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 10.197845733999998'
+'fScore of only positive state: = -14.773487566'
+{('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.639662208999999'
+'fScore of only positive state: = -15.168925210531249'
+{('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.703771733999998'
+'fScore of only positive state: = -14.318685886833334'
+{('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 10.175733734'
+'fScore of only positive state: = -14.469168041'
+{('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.850503108999998'
+'fScore of only positive state: = -14.240500944249998'
+{('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 7.449595608999998'
+'fScore of only positive state: = -14.134441211833332'
+'Entering loop'
+'Expanding node with fScore 7.449595608999998 and sequence '
+{('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 6.823183608999998'
+'fScore of only positive state: = -11.575088291'
+{('B', 47): ['GLU'], ('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.899139450666667'
+'fScore of only positive state: = -13.037368749333332'
+{('B', 47): ['LYS'], ('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.2790119965'
+'fScore of only positive state: = -13.856513003499998'
+{('B', 47): ['ASN'], ('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.573373041500002'
+'fScore of only positive state: = -11.637946958499999'
+{('B', 47): ['GLN'], ('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.053712300666664'
+'fScore of only positive state: = -13.244143199333333'
+{('B', 47): ['ARG'], ('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 17.352051209000003'
+'fScore of only positive state: = -13.662299791'
+'Entering loop'
+'Expanding node with fScore 6.823183608999998 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 7.785154134000001 and sequence '
+{('B', 41): ['ASN']}
+'Residues in sequence: '
+{('B', 41): ['ASN']}
+{('B', 41): ['ASN'], ('H', 41): ['GLN']}
+'fScore of new node: = 7.785154134000001'
+'fScore of only positive state: = -13.253867233187501'
+'Entering loop'
+'Expanding node with fScore 7.785154134000001 and sequence '
+{('B', 41): ['ASN'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 41): ['ASN'], ('H', 41): ['GLN']}
+{('H', 67): ['LYS'], ('B', 41): ['ASN'], ('H', 41): ['GLN']}
+'fScore of new node: = 7.785154134000001'
+'fScore of only positive state: = -13.253867233187501'
+'Entering loop'
+'Expanding node with fScore 7.785154134000001 and sequence '
+{('H', 67): ['LYS'], ('B', 41): ['ASN'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 67): ['LYS'], ('B', 41): ['ASN'], ('H', 41): ['GLN']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+'fScore of new node: = 7.785154134000001'
+'fScore of only positive state: = -13.253867233187501'
+'Entering loop'
+'Expanding node with fScore 7.785154134000001 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+'fScore of new node: = 7.785154134000001'
+'fScore of only positive state: = -13.253867233187501'
+'Entering loop'
+'Expanding node with fScore 7.785154134000001 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+'fScore of new node: = 7.785154134000001'
+'fScore of only positive state: = -13.253867233187501'
+'Entering loop'
+'Expanding node with fScore 7.785154134000001 and sequence '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+'Residues in sequence: '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ASN']}
+{('H', 64): ['ASP'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 10.501276734'
+'fScore of only positive state: = -12.920394166000001'
+{('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.943093209'
+'fScore of only positive state: = -13.253867233187501'
+{('H', 64): ['LYS'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 10.524085633999999'
+'fScore of only positive state: = -12.378992920166665'
+{('H', 64): ['ASN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 10.479164734000001'
+'fScore of only positive state: = -12.552145166'
+{('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.690059279833333'
+'fScore of only positive state: = -12.233399069333334'
+{('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 7.9819291340000005'
+'fScore of only positive state: = -12.062776641000001'
+'Entering loop'
+'Expanding node with fScore 7.9819291340000005 and sequence '
+{('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 7.417257134'
+'fScore of only positive state: = -11.529511765999999'
+{('B', 47): ['GLU'], ('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.319073725666666'
+'fScore of only positive state: = -11.965926474333333'
+{('B', 47): ['LYS'], ('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.9544586715'
+'fScore of only positive state: = -11.5240813285'
+{('B', 47): ['ASN'], ('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 12.673422700666666'
+'fScore of only positive state: = -10.605529299333334'
+{('B', 47): ['GLN'], ('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.660405934'
+'fScore of only positive state: = -11.601129566'
+{('B', 47): ['ARG'], ('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.912312834'
+'fScore of only positive state: = -11.501398166'
+'Entering loop'
+'Expanding node with fScore 7.417257134 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 8.727273209 and sequence '
+{('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 8.100861209'
+'fScore of only positive state: = -9.993464691'
+{('B', 47): ['GLU'], ('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.941821134000001'
+'fScore of only positive state: = -11.590535065999997'
+{('B', 47): ['LYS'], ('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.240957959'
+'fScore of only positive state: = -12.819302040999998'
+{('B', 47): ['ASN'], ('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.113826528583331'
+'fScore of only positive state: = -10.607410071416666'
+{('B', 47): ['GLN'], ('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.093996596500002'
+'fScore of only positive state: = -11.8765829035'
+{('B', 47): ['ARG'], ('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.996742050666668'
+'fScore of only positive state: = -12.453373849333332'
+'Entering loop'
+'Expanding node with fScore 8.100861209 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['GLU'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 8.731747723583332 and sequence '
+{('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 8.231183571499999'
+'fScore of only positive state: = -9.580466328499998'
+{('B', 47): ['GLU'], ('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.288594968375001'
+'fScore of only positive state: = -10.961085231625'
+{('B', 47): ['LYS'], ('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.084652659'
+'fScore of only positive state: = -11.692931341000001'
+{('B', 47): ['ASN'], ('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.463663724'
+'fScore of only positive state: = -9.974896876'
+{('B', 47): ['GLN'], ('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.470681234'
+'fScore of only positive state: = -11.217222266'
+{('B', 47): ['ARG'], ('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 12.309479175666668'
+'fScore of only positive state: = -11.563021824333333'
+'Entering loop'
+'Expanding node with fScore 8.231183571499999 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['GLN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.048865300666668 and sequence '
+{('B', 41): ['ARG']}
+'Residues in sequence: '
+{('B', 41): ['ARG']}
+{('B', 41): ['ARG'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.048865300666668'
+'fScore of only positive state: = -14.278440805583333'
+'Entering loop'
+'Expanding node with fScore 9.048865300666668 and sequence '
+{('B', 41): ['ARG'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 41): ['ARG'], ('H', 41): ['GLN']}
+{('H', 67): ['LYS'], ('B', 41): ['ARG'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.048865300666668'
+'fScore of only positive state: = -14.278440805583333'
+'Entering loop'
+'Expanding node with fScore 9.048865300666668 and sequence '
+{('H', 67): ['LYS'], ('B', 41): ['ARG'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 67): ['LYS'], ('B', 41): ['ARG'], ('H', 41): ['GLN']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+'fScore of new node: = 9.048865300666668'
+'fScore of only positive state: = -14.278440805583333'
+'Entering loop'
+'Expanding node with fScore 9.048865300666668 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+'fScore of new node: = 9.048865300666668'
+'fScore of only positive state: = -14.278440805583333'
+'Entering loop'
+'Expanding node with fScore 9.048865300666668 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+'fScore of new node: = 9.048865300666668'
+'fScore of only positive state: = -14.278440805583333'
+'Entering loop'
+'Expanding node with fScore 9.048865300666668 and sequence '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+'Residues in sequence: '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['ARG']}
+{('H', 64): ['ASP'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 11.340074734000002'
+'fScore of only positive state: = -14.100738166'
+{('H', 64): ['GLU'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 10.755902609000001'
+'fScore of only positive state: = -14.270844474333332'
+{('H', 64): ['LYS'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 11.398947833999998'
+'fScore of only positive state: = -13.544046532666666'
+{('H', 64): ['ASN'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 11.331982733999999'
+'fScore of only positive state: = -13.700755166'
+{('H', 64): ['GLN'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 10.674870688166664'
+'fScore of only positive state: = -13.391924047666667'
+{('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.399212584'
+'fScore of only positive state: = -12.908762795166668'
+'Entering loop'
+'Expanding node with fScore 9.263344733999999 and sequence '
+{('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 8.636932733999998'
+'fScore of only positive state: = -9.906309166'
+{('B', 47): ['GLU'], ('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.491492034'
+'fScore of only positive state: = -11.489780166000001'
+{('B', 47): ['LYS'], ('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.540667833999997'
+'fScore of only positive state: = -11.968508166'
+{('B', 47): ['ASN'], ('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.768384634'
+'fScore of only positive state: = -10.401767966'
+{('B', 47): ['GLN'], ('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.708394433999999'
+'fScore of only positive state: = -11.711101065999998'
+{('B', 47): ['ARG'], ('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.764350834000002'
+'fScore of only positive state: = -12.058627166'
+'Entering loop'
+'Expanding node with fScore 8.636932733999998 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ASN'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.285456734 and sequence '
+{('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 8.659044734'
+'fScore of only positive state: = -10.015206066'
+{('B', 47): ['GLU'], ('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.528449033999998'
+'fScore of only positive state: = -11.595255166'
+{('B', 47): ['LYS'], ('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.264955833999998'
+'fScore of only positive state: = -12.354471166'
+{('B', 47): ['ASN'], ('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.675532134000001'
+'fScore of only positive state: = -10.579756066'
+{('B', 47): ['GLN'], ('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.723311333999998'
+'fScore of only positive state: = -11.854893466'
+{('B', 47): ['ARG'], ('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.602871834'
+'fScore of only positive state: = -12.219317166'
+'Entering loop'
+'Expanding node with fScore 8.659044734 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ASP'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.28564381525 and sequence '
+{('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 8.65923181525'
+'fScore of only positive state: = -9.92811608475'
+{('B', 47): ['GLU'], ('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.482231634000001'
+'fScore of only positive state: = -11.543146566'
+{('B', 47): ['LYS'], ('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.013246204833333'
+'fScore of only positive state: = -11.540035795166665'
+{('B', 47): ['ASN'], ('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.774866833999997'
+'fScore of only positive state: = -10.439391766000002'
+{('B', 47): ['GLN'], ('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.724260134'
+'fScore of only positive state: = -11.739341366'
+{('B', 47): ['ARG'], ('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.750645117333335'
+'fScore of only positive state: = -11.571931882666664'
+'Entering loop'
+'Expanding node with fScore 8.65923181525 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['LYS'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.399212584 and sequence '
+{('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.447312583999999'
+'fScore of only positive state: = -12.021698316'
+{('B', 47): ['GLU'], ('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.941272390250003'
+'fScore of only positive state: = -12.79290780975'
+{('B', 47): ['LYS'], ('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.204151961083333'
+'fScore of only positive state: = -12.635076038916665'
+{('B', 47): ['ASN'], ('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.100479434'
+'fScore of only positive state: = -11.426126566'
+{('B', 47): ['GLN'], ('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.885769833999998'
+'fScore of only positive state: = -12.662169666'
+{('B', 47): ['ARG'], ('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 17.062056504833336'
+'fScore of only positive state: = -12.488922495166667'
+'Entering loop'
+'Expanding node with fScore 9.447312583999999 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['ARG'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.496395400666666 and sequence '
+{('B', 41): ['LYS']}
+'Residues in sequence: '
+{('B', 41): ['LYS']}
+{('B', 41): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.496395400666666'
+'fScore of only positive state: = -14.897437133260416'
+'Entering loop'
+'Expanding node with fScore 9.496395400666666 and sequence '
+{('B', 41): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('B', 41): ['LYS'], ('H', 41): ['GLN']}
+{('H', 67): ['LYS'], ('B', 41): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.496395400666666'
+'fScore of only positive state: = -14.897437133260416'
+'Entering loop'
+'Expanding node with fScore 9.496395400666666 and sequence '
+{('H', 67): ['LYS'], ('B', 41): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 67): ['LYS'], ('B', 41): ['LYS'], ('H', 41): ['GLN']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+'fScore of new node: = 9.496395400666666'
+'fScore of only positive state: = -14.897437133260416'
+'Entering loop'
+'Expanding node with fScore 9.496395400666666 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+'fScore of new node: = 9.496395400666666'
+'fScore of only positive state: = -14.897437133260416'
+'Entering loop'
+'Expanding node with fScore 9.496395400666666 and sequence '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+'Residues in sequence: '
+{('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 47): ['ARG'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+'fScore of new node: = 9.496395400666666'
+'fScore of only positive state: = -14.897437133260416'
+'Entering loop'
+'Expanding node with fScore 9.496395400666666 and sequence '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+'Residues in sequence: '
+{('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN'], ('B', 41): ['LYS']}
+{('H', 64): ['ASP'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 11.653306734'
+'fScore of only positive state: = -14.687601148199999'
+{('H', 64): ['GLU'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 11.052270237604164'
+'fScore of only positive state: = -14.890813022203124'
+{('H', 64): ['LYS'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 11.681460143999999'
+'fScore of only positive state: = -14.135120689333332'
+{('H', 64): ['ASN'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 11.640429333999998'
+'fScore of only positive state: = -14.292439565999999'
+{('H', 64): ['GLN'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 11.301252176333335'
+'fScore of only positive state: = -13.982946710166669'
+{('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.773958734'
+'fScore of only positive state: = -13.427521220166666'
+'Entering loop'
+'Expanding node with fScore 9.639662208999999 and sequence '
+{('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.013250208999999'
+'fScore of only positive state: = -11.107671691'
+{('B', 47): ['GLU'], ('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.505636446499999'
+'fScore of only positive state: = -13.1535217535'
+{('B', 47): ['LYS'], ('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.7408445136875'
+'fScore of only positive state: = -15.117330486312497'
+{('B', 47): ['ASN'], ('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.720341734000002'
+'fScore of only positive state: = -12.213628265999999'
+{('B', 47): ['GLN'], ('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.1189595965'
+'fScore of only positive state: = -13.901545903499999'
+{('B', 47): ['ARG'], ('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 18.295737800666664'
+'fScore of only positive state: = -14.672274099333334'
+'Entering loop'
+'Expanding node with fScore 9.013250208999999 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['GLU'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.690059279833333 and sequence '
+{('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.434940233999999'
+'fScore of only positive state: = -10.951802665999999'
+{('B', 47): ['GLU'], ('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.045350796500003'
+'fScore of only positive state: = -11.6796234035'
+{('B', 47): ['LYS'], ('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.742488233583334'
+'fScore of only positive state: = -12.176025766416666'
+{('B', 47): ['ASN'], ('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.878452740666667'
+'fScore of only positive state: = -10.840473259333333'
+{('B', 47): ['GLN'], ('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.964512734000003'
+'fScore of only positive state: = -11.736996765999999'
+{('B', 47): ['ARG'], ('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 12.709262167333332'
+'fScore of only positive state: = -12.080494832666666'
+'Entering loop'
+'Expanding node with fScore 9.434940233999999 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['GLN'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.703771733999998 and sequence '
+{('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.077359733999998'
+'fScore of only positive state: = -11.536584165999999'
+{('B', 47): ['GLU'], ('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.751090133999998'
+'fScore of only positive state: = -13.401090065999998'
+{('B', 47): ['LYS'], ('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 18.24037103191667'
+'fScore of only positive state: = -14.110825968083331'
+{('B', 47): ['ASN'], ('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.245912646499999'
+'fScore of only positive state: = -12.1810793535'
+{('B', 47): ['GLN'], ('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.540020384'
+'fScore of only positive state: = -13.973507115999999'
+{('B', 47): ['ARG'], ('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 18.690854834'
+'fScore of only positive state: = -14.149618166'
+'Entering loop'
+'Expanding node with fScore 9.077359733999998 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['LYS'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.773958734 and sequence '
+{('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.147546734000002'
+'fScore of only positive state: = -12.299086965999999'
+{('B', 47): ['GLU'], ('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.499335840250001'
+'fScore of only positive state: = -13.25213435975'
+{('B', 47): ['LYS'], ('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.7693043715'
+'fScore of only positive state: = -13.243721628500001'
+{('B', 47): ['ASN'], ('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.295196233999999'
+'fScore of only positive state: = -11.673921766'
+{('B', 47): ['GLN'], ('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.497047133999999'
+'fScore of only positive state: = -13.301364365999998'
+{('B', 47): ['ARG'], ('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 17.672716242333333'
+'fScore of only positive state: = -13.160206757666666'
+'Entering loop'
+'Expanding node with fScore 9.147546734000002 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['LYS'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.850503108999998 and sequence '
+{('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.224091108999998'
+'fScore of only positive state: = -10.614154791'
+{('B', 47): ['GLU'], ('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.860924334833335'
+'fScore of only positive state: = -12.515557865166667'
+{('B', 47): ['LYS'], ('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 17.33499805575'
+'fScore of only positive state: = -14.240500944249998'
+{('B', 47): ['ASN'], ('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.070030423999999'
+'fScore of only positive state: = -11.581263576'
+{('B', 47): ['GLN'], ('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.495644234'
+'fScore of only positive state: = -13.242185265999998'
+{('B', 47): ['ARG'], ('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.623466504833333'
+'fScore of only positive state: = -13.766930495166665'
+'Entering loop'
+'Expanding node with fScore 9.224091108999998 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['GLN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 9.943093209 and sequence '
+{('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.378421208999999'
+'fScore of only positive state: = -11.290997691000001'
+{('B', 47): ['GLU'], ('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.6807695715'
+'fScore of only positive state: = -12.3268806285'
+{('B', 47): ['LYS'], ('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.947322766812501'
+'fScore of only positive state: = -13.253867233187501'
+{('B', 47): ['ASN'], ('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 13.482067519416667'
+'fScore of only positive state: = -11.519534480583332'
+{('B', 47): ['GLN'], ('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 14.587828096500001'
+'fScore of only positive state: = -12.396357403499998'
+{('B', 47): ['ARG'], ('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.390494083999997'
+'fScore of only positive state: = -12.976877816'
+'Entering loop'
+'Expanding node with fScore 9.378421208999999 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['GLU'], ('B', 41): ['ASN'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 10.175733734 and sequence '
+{('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.549321734'
+'fScore of only positive state: = -11.020516165999998'
+{('B', 47): ['GLU'], ('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.054893034'
+'fScore of only positive state: = -13.053181166000002'
+{('B', 47): ['LYS'], ('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 18.016046834'
+'fScore of only positive state: = -14.291044165999999'
+{('B', 47): ['ASN'], ('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.374751334000003'
+'fScore of only positive state: = -12.008134666'
+{('B', 47): ['GLN'], ('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.733357434'
+'fScore of only positive state: = -13.736064066'
+{('B', 47): ['ARG'], ('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 19.020943834'
+'fScore of only positive state: = -14.319930165999999'
+'Entering loop'
+'Expanding node with fScore 9.549321734 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ASN'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 10.197845733999998 and sequence '
+{('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Residues in sequence: '
+{('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+{('B', 47): ['ASP'], ('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 9.571433733999998'
+'fScore of only positive state: = -11.129413066000001'
+{('B', 47): ['GLU'], ('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.091850034000004'
+'fScore of only positive state: = -13.158656166'
+{('B', 47): ['LYS'], ('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 17.622733833999998'
+'fScore of only positive state: = -14.773487566'
+{('B', 47): ['ASN'], ('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 15.281898834'
+'fScore of only positive state: = -12.186122766'
+{('B', 47): ['GLN'], ('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 16.748274334'
+'fScore of only positive state: = -13.879856466'
+{('B', 47): ['ARG'], ('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'fScore of new node: = 18.859464834'
+'fScore of only positive state: = -14.480620166'
+'Entering loop'
+'Expanding node with fScore 9.571433733999998 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ASP'], ('B', 41): ['GLU'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Entering loop'
+'Expanding node with fScore 10.369771533999998 and sequence '
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'Found optimal sequence with energy: 10.369771533999998'
+'positive states:'
+'Energy of 02-synCafB:CFF:synCafH: -10.370595566'
+'negative states:'
+'Energy of 06-synCafB:CFF: 2.3644490999999994'
+'Energy of 08-synCafH:CFF: -6.828945'
+'Energy of 03-synCafB:CFF:synCafB: -3.9339271'
+'Energy of 04-synCafH:CFF:synCafH: -12.341944099999997'
+{('B', 47): ['ASP'], ('H', 64): ['ARG'], ('B', 41): ['ASP'], ('B', 67): ['LYS'], ('H', 47): ['ARG'], ('B', 64): ['ASP'], ('H', 67): ['LYS'], ('H', 41): ['GLN']}
+'DeltaE of new sequence: 10.369771533999998'

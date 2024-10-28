@@ -1,0 +1,77 @@
+'Adding positive state; merging matrices '
+'Computing BP for negative state: 13-synBcl_A1155463'
+'Entering loop'
+'Expanding node with fScore 4.917880495002111 and sequence '
+{}
+'Residues in sequence: '
+{}
+{('A', 23): ['PHE']}
+'fScore of new node: = 4.917880495002111'
+'fScore of only positive state: = -21.92139456155782'
+'Entering loop'
+'Expanding node with fScore 4.917880495002111 and sequence '
+{('A', 23): ['PHE']}
+'Residues in sequence: '
+{('A', 23): ['PHE']}
+{('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'fScore of new node: = 4.975126733139668'
+'fScore of only positive state: = -21.92139456155782'
+{('A', 67): ['VAL'], ('A', 23): ['PHE']}
+'fScore of new node: = 17.342436091566615'
+'fScore of only positive state: = -11.33448644251628'
+'Entering loop'
+'Expanding node with fScore 4.975126733139668 and sequence '
+{('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'Residues in sequence: '
+{('A', 67): ['ALA'], ('A', 23): ['PHE']}
+{('A', 67): ['ALA'], ('A', 63): ['SER'], ('A', 23): ['PHE']}
+'fScore of new node: = 4.975126733139668'
+'fScore of only positive state: = -21.92139456155782'
+'Entering loop'
+'Expanding node with fScore 4.975126733139668 and sequence '
+{('A', 67): ['ALA'], ('A', 63): ['SER'], ('A', 23): ['PHE']}
+'Residues in sequence: '
+{('A', 67): ['ALA'], ('A', 63): ['SER'], ('A', 23): ['PHE']}
+{('A', 67): ['ALA'], ('A', 16): ['GLU'], ('A', 23): ['PHE'], ('A', 63): ['SER']}
+'fScore of new node: = 4.975126733139668'
+'fScore of only positive state: = -21.92139456155782'
+'Entering loop'
+'Expanding node with fScore 4.975126733139668 and sequence '
+{('A', 67): ['ALA'], ('A', 16): ['GLU'], ('A', 23): ['PHE'], ('A', 63): ['SER']}
+'Residues in sequence: '
+{('A', 67): ['ALA'], ('A', 16): ['GLU'], ('A', 23): ['PHE'], ('A', 63): ['SER']}
+{('A', 67): ['ALA'], ('A', 16): ['GLU'], ('A', 63): ['SER'], ('A', 23): ['PHE'], ('A', 20): ['ARG']}
+'fScore of new node: = 4.975126733139668'
+'fScore of only positive state: = -21.92139456155782'
+'Entering loop'
+'Expanding node with fScore 4.975126733139668 and sequence '
+{('A', 67): ['ALA'], ('A', 16): ['GLU'], ('A', 63): ['SER'], ('A', 23): ['PHE'], ('A', 20): ['ARG']}
+'Residues in sequence: '
+{('A', 67): ['ALA'], ('A', 16): ['GLU'], ('A', 63): ['SER'], ('A', 23): ['PHE'], ('A', 20): ['ARG']}
+{('K', 235): ['LEU'], ('A', 20): ['ARG'], ('A', 16): ['GLU'], ('A', 63): ['SER'], ('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'fScore of new node: = 4.975126733139668'
+'fScore of only positive state: = -21.92139456155782'
+'Entering loop'
+'Expanding node with fScore 4.975126733139668 and sequence '
+{('K', 235): ['LEU'], ('A', 20): ['ARG'], ('A', 16): ['GLU'], ('A', 63): ['SER'], ('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'Residues in sequence: '
+{('K', 235): ['LEU'], ('A', 20): ['ARG'], ('A', 16): ['GLU'], ('A', 63): ['SER'], ('A', 67): ['ALA'], ('A', 23): ['PHE']}
+{('A', 27): ['ALA'], ('A', 16): ['GLU'], ('K', 235): ['LEU'], ('A', 63): ['SER'], ('A', 20): ['ARG'], ('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'fScore of new node: = 16.10714956910807'
+'fScore of only positive state: = -21.52905843089193'
+{('A', 27): ['VAL'], ('A', 16): ['GLU'], ('K', 235): ['LEU'], ('A', 63): ['SER'], ('A', 20): ['ARG'], ('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'fScore of new node: = 4.975126733139668'
+'fScore of only positive state: = -21.913370566860337'
+'Entering loop'
+'Expanding node with fScore 4.975126733139668 and sequence '
+{('A', 27): ['VAL'], ('A', 16): ['GLU'], ('K', 235): ['LEU'], ('A', 63): ['SER'], ('A', 20): ['ARG'], ('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'Entering loop'
+'Expanding node with fScore 6.410750152000002 and sequence '
+{('A', 27): ['VAL'], ('A', 16): ['GLU'], ('K', 235): ['LEU'], ('A', 63): ['SER'], ('A', 20): ['ARG'], ('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'Found optimal sequence with energy: 6.410750152000002'
+'positive states:'
+'Energy of 08-synBcl_synBinder: -21.698756878'
+'negative states:'
+'Energy of 13-synBcl_A1155463: -28.109507030000003'
+{('A', 27): ['VAL'], ('A', 16): ['GLU'], ('K', 235): ['LEU'], ('A', 63): ['SER'], ('A', 20): ['ARG'], ('A', 67): ['ALA'], ('A', 23): ['PHE']}
+'DeltaE of new sequence: 6.410750152000002'
