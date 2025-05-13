@@ -16,12 +16,12 @@ To use this repository, clone it to your local machine:
 git clone https://github.com/LPDI-EPFL/caffeine-multi-state-design.git
 cd caffeine-multi-state-design
 ```
+
 Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ## Usage
 The main script for running the multi-state design is design.py. To execute the design process:
@@ -32,25 +32,29 @@ python design.py
 
 This will process the input structures and generate designed sequences compatible with the specified multiple states.
 
-
-Repository Structure
+## Repository Structure
 
 ``design.py``: Main script to initiate the multi-state design process.
 
-msd.py, msd_caf.py: Modules containing core functions for multi-state design algorithms.
+``msd.py, msd_caf.py``: Modules containing core functions for multi-state design algorithms.
 
-show_in_pymol.py: Utility script to visualize structures and designs in PyMOL.
+``show_in_pymol.py``: Utility script to visualize structures and designs in PyMOL.
 
-test-mplp-orig.py, test_pyrosetta.py: Test scripts for validating design methods.
+``test-mplp-orig.py, test_pyrosetta.py``: Test scripts for validating design methods.
 
-input/: Directory containing input PDB files and configuration settings.
+``input/``: Directory containing input PDB files and configuration settings.
 
-output/: Directory where output files, including designed sequences and structures, are saved.
+``output/``: Directory where output files, including designed sequences and structures, are saved.
 GitHub
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Acknowledgments
-This tool was developed by the Laboratory of Protein Design and Immunoengineering (LPDI) at École Polytechnique Fédérale de Lausanne (EPFL). For more information, visit the LPDI GitHub page.
+## References
+If you use this code, please cite:
+[1] Scheller L. et al. _"Humanized Caffeine-Inducible Systems for Controlling Cellular Functions"_, 2025
+[2] Hallen M. & Donald B.R., _"COMETS (Constrained Optimization of Multistate Energies by Tree Search): A provable and efficient protein design algorithm to optimize binding affinity and specificity with respect to sequence."_ Journal of Computational Biology 23.5 (2016): 311-321.
+
+Developed as part of the study _"Humanized Caffeine-Inducible Systems for Controlling Cellular Functions"_, `varCOMETS` is a protein design framework based on the COMETS algorithm, optimized for engineering multistate-specific protein-protein interactions. This implementation was used to design **caffeine-inducible nanobody heterodimers** with minimized off-target homodimerization, enabling precise control of cellular signaling in synthetic biology applications.
+
 
