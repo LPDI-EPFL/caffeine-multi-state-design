@@ -1,16 +1,16 @@
 # caffeine-multi-state-design
 
-**caffeine-multi-state-design** is a Python-based framework developed by the Laboratory of Protein Design and Immunoengineering (LPDI) at EPFL for multi-state design. It focuses on multi-state protein design, aiming to optimize protein sequences that can adopt multiple conformations or functional states.
+**caffeine-multi-state-design** (varCOMETS) is a Python-based program developed by the Laboratory of Protein Design and Immunoengineering (LPDI) at EPFL for multi-state design. It focuses on multi-state protein design, aiming to optimize protein sequences that can adopt multiple conformations or functional states. This implementation was used to design **caffeine-inducible nanobody heterodimers** with minimized off-target homodimerization, enabling precise control of cellular signaling in synthetic biology applications.
 
-Developed as part of the study _"Humanized Caffeine-Inducible Systems for Controlling Cellular Functions"_, `varCOMETS` is a protein design framework based on the COMETS algorithm, optimized for engineering multistate-specific protein-protein interactions. This implementation was used to design **caffeine-inducible nanobody heterodimers** with minimized off-target homodimerization, enabling precise control of cellular signaling in synthetic biology applications.
+If you use this code please cite our paper, and the original COMETS multi-state design paper [2].
 
 ![Caffeine multi state design](images/Caffeine.png)
 
 ## Features
 
 - Implements multi-state design algorithms to identify sequences compatible with multiple protein states.
-- Utilizes Python for scripting and automation of design workflows.
-- Incorporates tools for energy calculations, rotamer sampling, and structural analysis.
+- Utilizes Python/pymol for scripting.
+- Incorporates Rosetta tools for energy calculations, rotamer sampling, and structural analysis.
 
 ## Installation
 
@@ -21,17 +21,11 @@ git clone https://github.com/LPDI-EPFL/caffeine-multi-state-design.git
 cd caffeine-multi-state-design
 ```
 
-Install the required Python packages:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 The main script for running the multi-state design is design.py. To execute the design process:
 
 ```bash
-python design.py
+python msd_caf.py
 ```
 
 This will process the input structures and generate designed sequences compatible with the specified multiple states.
@@ -56,7 +50,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## References
 If you use this code, please cite:
+
 [1] Scheller L. et al. _"Humanized Caffeine-Inducible Systems for Controlling Cellular Functions"_, 2025
+
 [2] Hallen M. & Donald B.R., _"COMETS (Constrained Optimization of Multistate Energies by Tree Search): A provable and efficient protein design algorithm to optimize binding affinity and specificity with respect to sequence."_ Journal of Computational Biology 23.5 (2016): 311-321.
 
 
