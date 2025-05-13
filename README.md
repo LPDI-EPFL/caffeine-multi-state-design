@@ -35,18 +35,17 @@ GitHub
 ## Usage
 The main script for running the multi-state design is design.py. To execute the design process:
 
+```
 bash
-Copy
-Edit
 python design.py
+```
+
 This will process the input structures and generate designed sequences compatible with the specified multiple states.
-GitHub
-+1
-GitHub
-+1
+
 
 Repository Structure
-design.py: Main script to initiate the multi-state design process.
+
+``design.py``: Main script to initiate the multi-state design process.
 
 msd.py, msd_caf.py: Modules containing core functions for multi-state design algorithms.
 
@@ -59,12 +58,9 @@ input/: Directory containing input PDB files and configuration settings.
 output/: Directory where output files, including designed sequences and structures, are saved.
 GitHub
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 This tool was developed by the Laboratory of Protein Design and Immunoengineering (LPDI) at École Polytechnique Fédérale de Lausanne (EPFL). For more information, visit the LPDI GitHub page.
-GitHub
-+1
-GitHub
-+1
+
