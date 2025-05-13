@@ -1,6 +1,6 @@
 # caffeine-multi-state-design
 
-**caffeine-multi-state-design** is a Python-based framework developed by the Laboratory of Protein Design and Immunoengineering (LPDI) at EPFL for multi-state desing. It focuses on multi-state protein design, aiming to optimize protein sequences that can adopt multiple conformations or functional states.
+**caffeine-multi-state-design** is a Python-based framework developed by the Laboratory of Protein Design and Immunoengineering (LPDI) at EPFL for multi-state design. It focuses on multi-state protein design, aiming to optimize protein sequences that can adopt multiple conformations or functional states.
 
 ## Features
 
@@ -22,14 +22,11 @@ Install the required Python packages:
 pip install -r requirements.txt
 ```
 
-Note: Ensure you have Python 3.7 or higher installed.
-GitHub
 
 ## Usage
 The main script for running the multi-state design is design.py. To execute the design process:
 
-```
-bash
+```bash
 python design.py
 ```
 
