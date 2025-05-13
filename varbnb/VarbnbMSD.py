@@ -135,6 +135,7 @@ class VarbnbMSD:
                     bpNegSolver.optimize()
                     subtrahend[statename] = {}
                     subtrahend[statename]['intra'], subtrahend[statename]['pair'] = bpNegSolver.computeSubtrahend()
+                    
 
             deltaE = None
             for statename in self.state['constraint']:

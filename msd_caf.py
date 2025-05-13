@@ -55,3 +55,4 @@ print jsonarray
 outfile = open("output/"+drug+"/"+drug+"_"+group+".json", 'w')
 outfile.write(jsonarray)
 outfile.close()
+

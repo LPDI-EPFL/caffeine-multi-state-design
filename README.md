@@ -4,6 +4,8 @@
 
 Developed as part of the study _"Humanized Caffeine-Inducible Systems for Controlling Cellular Functions"_, `varCOMETS` is a protein design framework based on the COMETS algorithm, optimized for engineering multistate-specific protein-protein interactions. This implementation was used to design **caffeine-inducible nanobody heterodimers** with minimized off-target homodimerization, enabling precise control of cellular signaling in synthetic biology applications.
 
+![Caffeine multi state design](images/Caffeine.png)
+
 ## Features
 
 - Implements multi-state design algorithms to identify sequences compatible with multiple protein states.
