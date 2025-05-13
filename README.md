@@ -16,21 +16,12 @@ To use this repository, clone it to your local machine:
 git clone https://github.com/LPDI-EPFL/caffeine-multi-state-design.git
 cd caffeine-multi-state-design
 ```
-
-Installation
-To use this repository, clone it to your local machine:
-
-bash
-Copy
-Edit
-git clone https://github.com/LPDI-EPFL/caffeine-multi-state-design.git
-cd caffeine-multi-state-design
 Install the required Python packages:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
+
 Note: Ensure you have Python 3.7 or higher installed.
 GitHub
 
