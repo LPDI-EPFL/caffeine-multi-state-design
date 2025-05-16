@@ -1,0 +1,74 @@
+May 2 2019
+The runs were divided into clusters of residues, Group A  for now. 
+
+The multistate design is as follows. The prefix "syn" means synthetic and means that the protein is mutable according to s.
+We have synCafA and synCafB
+
+%%%%
+Multistate optimization objective for heterodimer
+
+min_s { 
+  (-E(synCafB:CFF:synCafH) + E(synCafB:CFF:synCafB) + E(synCafH:CFF:synCafH)) 
+}
+
+%%%%
+Constraints:
+
+(E(synCafB:CFF:synCafH) <= E(wtCafA:CFF:wtCafA) + \epsilon
+
+
+(E(synCafB:CFF) <= E(wtCafA:CFF) + \epsilon
+(E(synCafG:CFF) <= E(wtCafA:CFF) + \epsilon
+
+%%%%%%%%%%%%%%%%%%%%%
+
+If possible, make chain B mostly negative and chain H mostly positive
+
+Group A:  
+
+synCafB residues 
+  ddR40 to REKNQD
+K45 to REKNQD
+E48 to REKNQD
+
+synCafH residues
+K45 to REKNQD
+E46 to REKNQD
+
+
+Group B: 
+CafB residues: 
+R47 to QNREDK
+Q41 to QNREDK
+K67
+Q41
+
+CafH residues: 
+D64 to QNREDK
+K67
+Q41
+
+Group B.1 
+CafB residues: 
+R47 to QNREDK
+K67
+Q41
+
+CafH residues: 
+D64 to QNREDK
+K67
+Q41
+
+Group C:
+
+CafB residues: 
+E46 to QNREDK
+R40
+E48
+
+
+CafH residues: 
+E48 to QNREDK
+R40 to QNREDK
+E46 
+
