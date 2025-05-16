@@ -1,4 +1,4 @@
-base_data_directory = "/Users/pablo/cur/caf/"
+base_data_directory = "Rosetta_energy_matrices/"
 base_ematrix_directory = {}
 base_ematrix_directory = base_data_directory+"02b-energyMatrices_groupB/"
 base_structure_directory = base_data_directory+"01-inputStructs/"
