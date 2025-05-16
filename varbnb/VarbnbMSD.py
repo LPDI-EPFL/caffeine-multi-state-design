@@ -1,4 +1,3 @@
-import ipdb
 import sys
 from varbnb.SequenceNode import *
 from varbnb.SequenceExpansionQueue import *

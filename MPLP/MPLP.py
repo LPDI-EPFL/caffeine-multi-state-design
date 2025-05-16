@@ -5,7 +5,6 @@
 from math import *
 import random
 from util.createMatrix import *
-import ipdb
 from util.mymath import *
 import config.config
 import time

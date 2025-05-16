@@ -1,5 +1,4 @@
 from heapq import *
-import ipdb
 import random
 class SequenceNode:
   def __init__(self, parentPartialSequence={}, new_res_id_tup=None, newAA=None):

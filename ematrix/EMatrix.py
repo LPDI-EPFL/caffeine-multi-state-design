@@ -2,7 +2,6 @@ from ematrix.parseRosettaMatrixDirectory import *
 from ematrix.ReducedEmatrix import *
 from util.createMatrix import * 
 from config import config
-import ipdb
 class EMatrix:
   doPruning=True
   # Initialize energy matrix to null or by merging two energy matrices.
@@ -152,10 +151,7 @@ class EMatrix:
   def can_prune_rot(self, res_id_tup, aa1, candidate_rot, aa2, witness_rot):
     e1 = self.singleBody[res_id_tup][aa1][candidate_rot]['E']
     e2 = self.singleBody[res_id_tup][aa2][witness_rot]['E']
-    try: 
-      self.getNeighbors(res_id_tup)
-    except:
-      ipdb.set_trace()
+    self.getNeighbors(res_id_tup)
     for otherRes_id_tup in self.getNeighbors(res_id_tup):
       minimumForThisResidue = float("inf")
       e1_add = 0.0

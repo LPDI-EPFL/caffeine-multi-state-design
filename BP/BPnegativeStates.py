@@ -1,7 +1,6 @@
 from math import *
 from ematrix.EMatrix import *
 import util.mymath 
-import ipdb
   
 # Instances of this class contains the messages between all pairs of rotamers
 class Messages:
