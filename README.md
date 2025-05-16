@@ -21,29 +21,51 @@ git clone https://github.com/LPDI-EPFL/caffeine-multi-state-design.git
 cd caffeine-multi-state-design
 ```
 
+## Requirements
+This code requires python 2.7 and python 2.7-based pymol.
+
 ## Usage
-The main script for running the multi-state design is design.py. To execute the design process:
+The main script for running the multi-state design is design.py. To execute the design process as shown in the paper, run it with the provided residue groups: 
 
 ```bash
-python msd_caf.py
+python msd_caf.py caffeine A # for group A
+python msd_caf.py caffeine B # for group B
+python msd_caf.py caffeine C # for group C
+python msd_caf.py caffeine D # for group D
 ```
 
-This will process the input structures and generate designed sequences compatible with the specified multiple states.
+To visualize results: 
+```bash
+pymol
+```
+
+Within pymol run: 
+```bash
+run show_in_pymol output/caffeine/caffeine_A.json
+```
+
 
 ## Repository Structure
 
-``design.py``: Main script to initiate the multi-state design process.
-
-``msd.py, msd_caf.py``: Modules containing core functions for multi-state design algorithms.
+``msd_caf.py``: Entry point for the caffeine design
 
 ``show_in_pymol.py``: Utility script to visualize structures and designs in PyMOL.
 
+``varbnb/VarbnbMSD.py``: Algorithm for multi state design
+
+``bp/``: Belief propagation algorithm used to compute lower bounds 
+
+``mplp``: MPLP algorithm used to compute upper bounds.
+
+``dynamicAS``: Dynamic A* algorithm used to explore the multi-state design space.
+
+``ematrix``: Directory to parse Rosetta energy matrices.
+
 ``test-mplp-orig.py, test_pyrosetta.py``: Test scripts for validating design methods.
 
-``input/``: Directory containing input PDB files and configuration settings.
+``input/``: Directory containing the definition of the states and the regions being modeled, as well as allowed amino acids.
 
 ``output/``: Directory where output files, including designed sequences and structures, are saved.
-GitHub
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
