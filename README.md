@@ -2,7 +2,7 @@
 
 **caffeine-multi-state-design** (varCOMETS) is a Python-based program developed by the Laboratory of Protein Design and Immunoengineering (LPDI) at EPFL for multi-state design. It focuses on multi-state protein design, aiming to optimize protein sequences that can adopt multiple conformations or functional states. This implementation was used to design **caffeine-inducible nanobody heterodimers** with minimized off-target homodimerization, enabling precise control of cellular signaling in synthetic biology applications.
 
-If you use this code please cite our paper, and the original COMETS multi-state design paper [2].
+If you use this code please cite our paper [1], and the original COMETS multi-state design paper [2].
 
 ![Caffeine multi state design](images/Caffeine.png)
 
