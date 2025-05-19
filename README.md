@@ -12,6 +12,11 @@ If you use this code please cite our paper, and the original COMETS multi-state 
 - Utilizes Python/pymol for scripting.
 - Incorporates Rosetta tools for energy calculations, rotamer sampling, and structural analysis.
 
+## System Requirements
+This code requires python 2.7 and python 2.7-based pymol to run. You must run it in your local machine.
+
+Energy matrices for the problems in the paper are provided in this repository. However, if you wish to apply this code to a different problem, Rosetta is required to compute intrabody and pairwise energy matrices for residues. Thus, you must you Rosetta to compute these matrices as in the format of the files in the ``Rosetta_energy_matrices/`` directory.
+
 ## Installation
 
 To use this repository, clone it to your local machine:
@@ -21,11 +26,13 @@ git clone https://github.com/LPDI-EPFL/caffeine-multi-state-design.git
 cd caffeine-multi-state-design
 ```
 
-## Requirements
-This code requires python 2.7 and python 2.7-based pymol.
+
+
+## Runtime
+The running time of the scripts, as currently set up, is within a second. However, varCOMETS is a provable algorithm, meaning that it guarantees to identify the global minimum within the search space. Since the complexity of the problem is not polynomial (see [2]), as the number of designed residue positions grows, the space grows and the run time can become unfeasible. Therefore, care should be taken when selecting residues to model.
 
 ## Usage
-The main script for running the multi-state design is design.py. To execute the design process as shown in the paper, run it with the provided residue groups: 
+The main script for running the multi-state design is ``msd_caf.py``. To execute the design process as shown in the paper, run it with the provided residue groups, and the precomputed energy matrices: 
 
 ```bash
 python msd_caf.py caffeine A # for group A
@@ -66,6 +73,8 @@ run show_in_pymol output/caffeine/caffeine_A.json
 ``input/``: Directory containing the definition of the states and the regions being modeled, as well as allowed amino acids.
 
 ``output/``: Directory where output files, including designed sequences and structures, are saved.
+
+``Rosetta_energy_matrices/``: contains the energy matrices for the design as computed by Rosetta. 
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
