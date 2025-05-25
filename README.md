@@ -29,7 +29,7 @@ cd caffeine-multi-state-design
 
 
 ## Runtime
-The running time of the scripts, as currently set up, is within a second. However, varCOMETS is a provable algorithm, meaning that it guarantees to identify the global minimum within the search space. Since the complexity of the problem is not polynomial (see [2]), as the number of designed residue positions grows, the space grows and the run time can become unfeasible. Therefore, care should be taken when selecting residues to model.
+The running time of the scripts, as currently set up, is within a second, and can be run in a laptop. However, varCOMETS is a provable algorithm, meaning that it guarantees to identify the global minimum within the search space. Since the complexity of the problem is not polynomial (see [2]), as the number of designed residue positions grows, the space grows and the run time can become unfeasible. Therefore, care should be taken when selecting residues to model. Probably keeping it at 5-7 residues max is necessary and these must be carefully selected. Although an HPC server can likely process larger inputs, the problem still has exponential complexity which can catch up to available resources with a slighly larger input.
 
 ## Usage
 The main script for running the multi-state design is ``msd_caf.py``. To execute the design process as shown in the paper, run it with the provided residue groups, and the precomputed energy matrices: 
