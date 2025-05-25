@@ -15,7 +15,7 @@ If you use this code please cite our paper [1], and the original COMETS multi-st
 ## System Requirements
 This code requires python 2.7 and python 2.7-based pymol to run. You must run it in your local machine.
 
-Energy matrices for the problems in the paper are provided in this repository. However, if you wish to apply this code to a different problem, Rosetta is required to compute intrabody and pairwise energy matrices for residues. Thus, you must you Rosetta to compute these matrices as in the format of the files in the ``Rosetta_energy_matrices/`` directory.
+Energy matrices for the problems in the paper are provided in this repository. However, if you wish to apply this code to a different problem, Rosetta is required to compute intrabody and pairwise energy matrices for residues. Thus, you must use Rosetta to compute these matrices as in the format of the files in the ``Rosetta_energy_matrices/`` directory.
 
 ## Installation
 
