@@ -1,0 +1,11 @@
+# Legacy environment for the original Python 2 implementation.
+# Python 2.7 is end-of-life; run only with trusted inputs in an isolated environment.
+name: caffeine-msd-py27
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7.18
+  - pip=20.3.4
+# The main msd_caf.py workflow otherwise uses the Python standard library.
+# PyMOL and the Rosetta/PyRosetta toolchain are optional, separately installed
+# applications; see README.md for the relevant workflows.
