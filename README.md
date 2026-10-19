@@ -17,15 +17,55 @@ This code requires python 2.7 and python 2.7-based pymol to run. You must run it
 
 Energy matrices for the problems in the paper are provided in this repository. However, if you wish to apply this code to a different problem, Rosetta is required to compute intrabody and pairwise energy matrices for residues. Thus, you must use Rosetta to compute these matrices as in the format of the files in the ``Rosetta_energy_matrices/`` directory.
 
-## Installation
+## Installation and reproducible environment
 
-To use this repository, clone it to your local machine:
+Clone this repository and create the **legacy Python 2.7** environment described in
+[`environment.yml`](environment.yml). Install [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/)
+or another compatible Conda distribution first.
 
 ```bash
 git clone https://github.com/LPDI-EPFL/caffeine-multi-state-design.git
 cd caffeine-multi-state-design
+conda env create -f environment.yml
+conda activate caffeine-msd-py27
+python --version  # should report Python 2.7.18
 ```
 
+The core multi-state optimization code uses the Python standard library, so no
+additional pip requirements are needed for `msd_caf.py`. **Do not substitute a
+Python 3 environment:** the original source contains Python 2-only syntax.
+Python 2.7 is end-of-life, and installation from historical package archives may
+be unavailable on some operating systems or architectures. Use the environment
+only with trusted local data, preferably in an isolated machine or container.
+
+**Data prerequisite:** the `msd_caf.py` examples require precomputed files in
+`Rosetta_energy_matrices/` at the paths referenced by `input/caffeine/*.py`.
+Make sure that directory is present before running the commands below. Some
+source distributions (including reduced archives) omit these large data files;
+creating the Conda environment does not download them.
+
+**Optional tools:**
+
+- **PyMOL** is needed only to visualize results with `show_in_pymol.py`.
+  The visualization script imports `pymol` and contains Python 2 syntax, so use
+  a PyMOL installation exposing a compatible Python 2.7 interpreter. PyMOL
+  cannot be assumed available simply by installing this Conda environment.
+- **Rosetta** is required to generate new energy matrices for new design
+  problems. Its installation and licensing are separate from this environment.
+  `test_pyrosetta.py` also imports the legacy `rosetta` Python interface; it is
+  not part of the standard example workflow.
+- The optional debugging file `MPLP/MPLPorig.py` imports `ipdb`; install a
+  Python 2-compatible `ipdb` separately if using that legacy debugging script.
+
+### Environment check
+
+```bash
+python --version
+python -c "import json, math, gzip, imp; print('Core stdlib imports OK')"
+```
+
+These checks verify only the interpreter and standard-library imports, **not**
+that optional PyMOL/Rosetta installations or the input energy matrices work.
 
 
 ## Runtime
